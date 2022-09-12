@@ -152,13 +152,17 @@ nav > div:first-child {
   transition: 0.3s;
 }
 
+.work {
+  margin: 60px;
+}
+
 .projects {
   padding: 5px 20px 50px;
 }
 
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 100px;
+  height: 100px;
 }
 
 .projects-container {
@@ -166,7 +170,6 @@ nav > div:first-child {
   align-items: center;
   justify-content: center;
 }
-
 
 .project-container {
   text-align: center;
@@ -177,18 +180,25 @@ nav > div:first-child {
   padding: 0.4rem;
 }
 
-
 .project-card {
   background-color: rgb(210, 203, 203);
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
-  margin: 10px;
+  margin: 20px;
+}
+
+.project-title {
+  height: 35px;
 }
 
 .flex-container {
 	justify-content: center;
   justify-content: space-evenly;
+}
+
+#work1Btn {
+  width: 150px;
 }
 
 
