@@ -5,6 +5,38 @@ body {
   font-family: 'Merriweather', serif;
 
 }
+nav div a,
+nav div a:after,
+nav div a:before {
+  transition: all .4s;
+}
+
+nav > div > a:hover {
+    color: #40514E;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #E4F9F5;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > div {
+    font-size: 15px;
+    margin: 0 20px;
+} 
+
+nav > div:first-child {
+    margin-right: auto;
+}
+
 
 h1 {
   color: #66BFBF;
@@ -53,8 +85,8 @@ a:hover {
 
 .top-container {
   background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
+  /* position: relative; */
+  padding-top: 10px;
 }
 
 .midle-container {
