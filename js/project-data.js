@@ -25,7 +25,8 @@ let projectData = [
         deployment: '',
         github:'https://github.com/kairoribeiro/calculator',
         image: '/data/calculator.png'
-    }
+    },
+
 
 ]
 
