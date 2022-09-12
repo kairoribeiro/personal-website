@@ -39,15 +39,20 @@ nav > div:first-child {
 
 .top-container {
   background-color: #E4F9F5;
-  padding-top: 5px;
+  padding-top: 1px;
+}
+
+.top-container > h2 {
+  margin-top: 0;
 }
 
 .profile {
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 .profile-img {
-  width: 80%;
+  width: 60%;
   margin-top: 30px;
   border-radius: 50%;
   border: 3px solid rgb(210, 203, 203);
@@ -59,7 +64,11 @@ nav > div:first-child {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px 10px 10px 150px ;
+  padding: 10px 10px 10px 50px;
+}
+
+.profile-left {
+margin-right: 50px;
 }
 
 .profile-icons {
@@ -200,7 +209,7 @@ h1 {
   color: #66BFBF;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
+  font-size: 4.625rem;
   margin: 50px auto 0 auto;
 
 }
@@ -311,4 +320,23 @@ width:140px;
 }.btn:active {
 	position:relative;
 	top:1px;
+}
+
+
+@media screen and (max-width: 580px) {
+
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav > div {
+    font-size: 10px;
+    margin: 0 5px;
+} 
+
+nav > div > a:hover {
+  font-size: 15px;
+  margin: 0 5px;
+} 
 }
