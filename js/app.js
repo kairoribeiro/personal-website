@@ -21,3 +21,11 @@ let projectMarkup = projectData.map(project =>
 
 cardContainer.innerHTML = projectMarkup
 
+
+//Button back to top
+
+const topBtn = document.getElementById("to-top")
+const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
+
+topBtn.addEventListener('click', toTop)
+
