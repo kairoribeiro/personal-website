@@ -37,6 +37,111 @@ nav > div:first-child {
     margin-right: auto;
 }
 
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 5px;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-img {
+  width: 80%;
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 3px solid rgb(210, 203, 203);
+
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 150px ;
+}
+
+.profile-icons {
+  margin: 0 40px;
+}
+
+.profile-icons > ul {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: 0;
+  justify-content: space-around;
+
+  
+}
+
+.profile-icons > ul li {
+  display: flex;
+  /* justify-content: space-between; */
+  list-style: none;
+  margin: 40px;
+
+}
+
+.profile-icons > ul li a {
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgb(210, 203, 203);
+  z-index: 1;
+}
+
+.profile-icons > ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.profile-icons > ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.profile-icons > ul li a:before {
+  content: "";
+  position: absolute; /* animation take the intire page */
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #f00; */
+  transition: .5s;
+  /* z-index: 2; */
+}
+
+.profile-icons > ul li a:hover:before {
+  top: 0;
+}
+
+.profile-icons > ul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+.profile-icons > ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+.profile-icons > ul li:nth-child(3) a:before {
+  background: #1d1e1f;
+}
+
+
 
 h1 {
   color: #66BFBF;
@@ -83,21 +188,11 @@ a:hover {
   color: #EAF6F6;
 }
 
-.top-container {
-  background-color: #E4F9F5;
-  /* position: relative; */
-  padding-top: 10px;
-}
 
 .midle-container {
   margin: 100px 0;
 }
 
-.profile-img {
-  width: 25%;
-  margin-top: 30px;
-  border-radius: 50%;
-}
 
 .bottom-container {
   background-color: #66BFBF;
@@ -112,8 +207,9 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
-  margin: auto;
+  width: 70%;
+  margin: 100px;
+  text-align: justify;
 }
 
 .contact-message {
