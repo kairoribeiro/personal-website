@@ -153,12 +153,9 @@ nav > div:first-child {
 }
 
 .work {
-  margin: 60px;
+  margin: 0 60px;
 }
 
-.projects {
-  padding: 5px 20px 50px;
-}
 
 .project-pic {
   width: 100px;
@@ -166,14 +163,15 @@ nav > div:first-child {
 }
 
 .projects-container {
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
+  width: 10.875rem;
 }
 
 .project-container p {
@@ -192,10 +190,6 @@ nav > div:first-child {
   height: 35px;
 }
 
-.flex-container {
-	justify-content: center;
-  justify-content: space-evenly;
-}
 
 #work1Btn {
   width: 150px;

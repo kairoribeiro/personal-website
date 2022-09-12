@@ -2,7 +2,7 @@
 <h2>Kairo Ribeiro's Web Page</h2>
 
 
-*[Deployed link](link here)* <br>
+*[Deployed link](https://kairo-ribeiro-portfolio.netlify.app)* <br>
 
 ![WebPage!](/data/main-view.png "Main View")
 
