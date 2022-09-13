@@ -22,7 +22,7 @@ let projectData = [
 
     {
         title: 'Calculator',
-        deployment: '',
+        deployment: 'https://calculator-kairo.netlify.app/',
         github:'https://github.com/kairoribeiro/calculator',
         image: '/data/calculator.png'
     },
