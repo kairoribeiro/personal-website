@@ -20,11 +20,18 @@ let projectData = [
         image: '/data/beaniebabies.png'
     },
 
+    // {
+    //     title: 'Calculator',
+    //     deployment: 'https://calculator-kairo.netlify.app/',
+    //     github:'https://github.com/kairoribeiro/calculator',
+    //     image: '/data/calculator.png'
+    // },
+
     {
-        title: 'Calculator',
-        deployment: 'https://calculator-kairo.netlify.app/',
-        github:'https://github.com/kairoribeiro/calculator',
-        image: '/data/calculator.png'
+        title: 'Drum Kit',
+        deployment: 'https://drum-kit-kairo.netlify.app/',
+        github:'https://github.com/kairoribeiro/drum-kit',
+        image: '/data/drum-kit.png'
     },
 
 
