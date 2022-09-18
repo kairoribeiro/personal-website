@@ -34,6 +34,13 @@ let projectData = [
         image: '/data/drum-kit.png'
     },
 
+    {
+        title: 'Simon Game',
+        deployment: 'https://simon-game-kairo.netlify.app//',
+        github:'https://github.com/kairoribeiro/simon-game',
+        image: '/data/simon-game.png'
+    },
+
 
 ]
 
