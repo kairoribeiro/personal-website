@@ -41,6 +41,13 @@ let projectData = [
         image: '/data/simon-game.png'
     },
 
+    {
+        title: 'Rock Paper Scissors Game',
+        deployment: 'https://rock-paper-scissors-game-kairo.netlify.app/',
+        github:'https://github.com/kairoribeiro/rock-paper-scissors-game',
+        image: '/data/r-p-s.png'
+    },
+
 
 ]
 

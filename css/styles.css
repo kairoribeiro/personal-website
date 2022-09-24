@@ -184,6 +184,7 @@ margin-right: 50px;
 .project-container {
   text-align: center;
   width: 10.875rem;
+  border: none;
 }
 
 .project-container p {
