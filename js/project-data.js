@@ -48,6 +48,13 @@ let projectData = [
         image: '/data/r-p-s.png'
     },
 
+    {
+        title: 'Memory Game',
+        deployment: 'https://memory-game-kairo.netlify.app//',
+        github:'https://github.com/kairoribeiro/memory-game',
+        image: '/data/memory-game.png'
+    },
+
 
 ]
 
