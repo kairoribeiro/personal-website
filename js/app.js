@@ -13,8 +13,9 @@ let projectMarkup = projectData.map(project =>
   <div class="project-container project-card">
     <img src=${project.image} alt="future-project" loading="lazy" class="project-pic"/>
     <h3 class="project-title">${project.title}</h3>
-    <button id="work1Btn"><a href="${project.deployment}" target="_blank">Check Here</a></button>
-    <button id="work1Btn"><a href="${project.github}" target="_blank">GitHub</a></button>
+    <p class="project">${project.tecnology}</p>
+    <button class="btn"><a href="${project.deployment}" target="_blank">Check Here</a></button>
+    <button class="btn"><a href="${project.github}" target="_blank">GitHub</a></button>
   </div>
   `
   ).join('')
