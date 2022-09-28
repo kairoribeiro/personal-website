@@ -1,7 +1,7 @@
 let projectData = [
     {
         title: 'Talk - Post Social Media',
-        tecnology: 'React',
+        tecnology: 'MEN Stack App',
         deployment: 'https://post-social-media.herokuapp.com/',
         github:'https://github.com/kairoribeiro/post-social-media.git',
         image: '/data/talk.png'
