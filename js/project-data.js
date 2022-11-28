@@ -8,6 +8,14 @@ let projectData = [
     },
 
     {
+        title: 'React Movies',
+        tecnology: 'React',
+        deployment: 'https://kairo-react-movies.netlify.app/',
+        github:'https://github.com/kairoribeiro/react-movies',
+        image: '/data/react-movies.png'
+    },
+
+    {
         title: 'TIC TAC TOE',
         tecnology: 'JavaScript',
         deployment: 'https://kairo1.netlify.app/',
