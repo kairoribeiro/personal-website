@@ -25,7 +25,7 @@ let projectData = [
 
     {
         title: 'Beanie Babies Collector',
-        tecnology: 'React',
+        tecnology: 'Pyton',
         deployment: 'https://beanie-babies-collector.herokuapp.com/',
         github:'https://github.com/kairoribeiro/beanie-babies-collector',
         image: '/data/beaniebabies.png'
